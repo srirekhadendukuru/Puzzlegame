@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(#7B9F35, #226666);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  margin-top: 100px;
+  box-shadow: 0 1px 4px rgba(8000, 800, 800, 800);
+  padding: 25px;
+  background-color: chocolate;
+  border-radius: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px;
+  grid-template-rows: 130px 130px 130px 130px;
+  border: 3px solid rebeccapurple;
+}
+
+.grid button {
+  background-color: lightgrey;
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  border: 4px solid #550000;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.easygame{
+  margin-left: 50px;
+}
+
+.footer button {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(800, 800, 800, 800);
+  padding: 5px;
+  width: 80px;
+  background-color: #D4EE9F;
+  color: #003333;
+  outline: none;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  color: #D4EE9F;
+  background-color: #003333;
+}
+
+.footer span {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  color: #D4EE9F;
+  font-weight: bold;
+  margin: auto 0;
+}
+
+.message {
+  color:#47337d;
+  height: 80px;
+}
